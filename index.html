@@ -1,0 +1,252 @@
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Lorenzo Gibilisco</title>
+    <meta name="author" content="Lorenzo Gibilisco">
+    <meta name="description" content="Portfolio Lorenzo Gibilisco">
+    <meta name="viewport" content="width=device-width, initial-scale:1.0, maximum-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/ico" sizes="16x16" href="assets/img/favicon.ico">
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    </style>
+
+    <script>
+      function successFunction()
+      {
+        document.getElementById("success-msg").innerHTML = "Message sent correctly!";
+      }
+      function resetFunction()
+      {
+        document.getElementById("form").reset();
+      }
+    </script>
+
+    <script src="assets/js/script.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function()
+      {
+        emailjs.init("user_9YpKSoHqNiqtMdDBa7FJ0");
+      })();
+    </script>
+
+    <script src="https://kit.fontawesome.com/f7a0aed2b7.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+
+    <nav id="navbar">
+      <div class="section nav-container">
+        <ul>
+          <li>
+            <a href="#home">
+              <img src="assets/img/logo.png">
+            </a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#fixabout">ABOUT</a>
+          </li>
+          <li>
+            <a href="#fixwork">WORK</a>
+          </li>
+          <li>
+            <a href="#fixcontact">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="home">
+
+      <div class="section">
+        <div class="section photome m1">
+          <img src="assets/img/me.png" class="me"/>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section name m2">
+          <h1>Lorenzo Gibilisco</h1>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="profession">
+          <h2><i>Undergraduate in computer science</i></h2>
+          <h2>And</h2>
+          <h2><i>Back-end developer student of
+            <a href="https://www.start2impact.it/" class="s2i">start2impact</a></i></h2>
+        </div>
+      </div>
+
+    </section>
+
+    <div id="fixabout">
+    </div>
+
+    <section id="about">
+
+      <h2>My story</h2><br>
+
+      <p class="quote">"Programming is an expression of human creativity"</p>
+
+      <br>
+
+      <div class="section">
+        <div class="story">
+          <p>Hi, I'm Lorenzo and I like challenges.</p>
+          <p>I've always been a <i><b>competitive</b></i> person since I was a kid, and doing lots
+            of different sports help me build my personality.</p>
+            <p>I like to improve myself every day, reading and having new experiences.</p>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="mise">
+          <img src="assets/img/mise.jpeg" class="photomise"/>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="story">
+          <p>This was one of the experiences that made me grow the most.</p>
+          <p>I spent a year caring about people as a volunteer and this made me figure
+            out how important is to always be <b><i>positive and empathetic</i></b> towards others.
+          </p>
+        </div>
+      </div>
+
+    </section>
+
+    <div id="fixwork">
+    </div>
+
+    <section id="work">
+
+      <h2>My Projects</h2><br>
+
+      <div class="section">
+        <p>This site is <i><b>my very first project</b></i>.</p>
+      </div>
+      <div class="section">
+        <p>Here you can find some projects I'm working on.</p>
+      </div>
+
+      <div class="section">
+        <div class="workrow">
+          <ul>
+            <li>
+              <div class="section icon-container" style="padding-bottom: 30px;">
+                <i class="fas fa-hands-helping"></i>
+              </div>
+            </li>
+            <li>
+              <p>App for managing reservations for <i><b>volunteer activities</b></i></p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="workrow">
+          <ul>
+            <li>
+              <div class="section icon-container" style="padding-bottom: 30px;">
+                <i class="fas fa-desktop"></i>
+                <i class="fas fa-mobile-alt"></i>
+              </div>
+            </li>
+            <li><p><i><b>Showcase website</b></i> for the association Misericordia of Floridia</p></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="workrow">
+          <ul>
+            <li>
+              <div class="section icon-container" style="padding-bottom: 30px;">
+                <i class="fas fa-box-open"></i>
+              </div>
+            </li>
+            <li><p>App for a green <i><b>logistics center</b></i></p></li>
+          </ul>
+        </div>
+      </div>
+
+      <p>Stay tuned. I'll soon post a preview.</p>
+
+    </section>
+
+    <div id="fixcontact">
+    </div>
+
+    <section id="contact">
+
+      <h2>Write me</h2><br>
+
+      <div class="section">
+        <p class="story">I'm always interested in hearing about new <i><b>projects</b></i> and <i><b>opportunities</b></i>.</p>
+      </div>
+
+      <form id="form">
+        <div class="section" style="padding-top: 20px;">
+          <div class="input-container">
+            <i class="fa fa-user icon"></i>
+            <input type="text" class="input-field" id="name" placeholder="Name">
+          </div>
+        </div>
+
+        <div class="section">
+          <div class="input-container">
+            <i class="fa fa-envelope icon"></i>
+            <input type="text" class="input-field" id="email" placeholder="Email Address">
+          </div>
+        </div>
+
+        <div class="section">
+          <div class="input-container">
+            <i class="far fa-file-alt icon"></i>
+            <input type="text" class="input-field" id="subject" placeholder="Subject">
+          </div>
+        </div>
+
+        <div class="section">
+          <div class="input-container">
+            <textarea class="input-field msg" id="message" placeholder="Your message"
+            style="height: 100px; resize: none"></textarea>
+          </div>
+        </div>
+
+        <div class="section">
+          <button onclick="sendMail(), successFunction(), resetFunction()" class="btn">Send Message</button>
+        </div>
+
+        <br><p id="success-msg" class="fadeout"></p>
+
+      </form>
+
+      <div class="section icon-container">
+        <a href="#">
+          <a href="https://www.linkedin.com/in/lorenzo-gibilisco-b13402222/">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </a>
+        <a href="#">
+          <a href="https://github.com/loregibi">
+            <i class="fab fa-github"></i>
+          </a>
+        </a>
+      </div>
+
+    </section>
+
+  </body>
+
+</html>

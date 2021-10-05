@@ -1,0 +1,341 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #276678;
+  scroll-behavior: smooth;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Style font */
+h1, h2 {
+  color: #1A2639;
+  padding-top: 30px;
+  font-size: 25px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+p {
+  color: #1A2639;
+  font-size: 16px;
+  padding: 10px 25px;
+  text-align: center;
+  font-weight: 300;
+}
+
+p.quote {
+  font-style: italic;
+  padding: 10px 15px;
+}
+
+.s2i {
+  color: #65C573;
+  text-decoration: none;
+}
+
+/* Style basic for every section */
+.section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style background-color every sections */
+#home,
+#work {
+  background-color: #F6F5F5;
+}
+
+#about,
+#contact {
+  background-color: #D3E0EA;
+}
+
+/* * * * * * * * * * STYLE HEADER * * * * * * * * * */
+
+#navbar {
+  position: fixed;
+  width: 100%;
+}
+
+.nav-container {
+  height: 50px;
+  background-color: #1687A7;
+  color: #F6F5F5;
+  font-size: 12px;
+  justify-content: space-between;
+}
+
+.nav-container ul {
+  list-style: none;
+}
+
+.nav-container ul li {
+  display: inline-block;
+}
+
+.nav-container ul li a {
+  display: inline-block;
+  padding: 15px;
+  text-decoration: none;
+  color: #F6F5F5;
+  letter-spacing: 0.5px;
+}
+
+.nav-container ul li a:active {
+  color: #1A2639;
+}
+
+/* * * * * * * * * * STYLE SECTION HOME * * * * * * * * * */
+
+.photome {
+  width: 70%;
+}
+
+.me {
+  padding-top: 70px;
+  width: 100%;
+}
+
+.name,
+.profession {
+  width: 90%;
+}
+
+/* * * * * * * * * * STYLE SECTION ABOUT * * * * * * * * * */
+
+#fixabout {
+  padding-top: 50px;
+  background-color: #F6F5F5;
+}
+
+.story {
+  width: 90%;
+}
+
+.mise {
+  width: 80%;
+}
+
+.photomise {
+  border-radius: 5px;
+  box-shadow: 0 0 8px #888888;
+  width: 100%;
+}
+
+/* * * * * * * * * * STYLE SECTION WORK * * * * * * * * * */
+
+#fixwork {
+  padding-top: 50px;
+  background-color: #D3E0EA;
+}
+
+.workrow {
+  background-color: #FFFFFF;
+  border: 1px solid #D6D9DC;
+  border-radius: 5px;
+
+  box-shadow: 0 0 8px #888888;
+
+  padding-top: 10px;
+  width: 80%;
+  margin: 20px;
+}
+
+.workrow ul {
+  list-style: none;
+}
+
+/* * * * * * * * * * STYLE SECTION CONTACT * * * * * * * * * */
+
+#fixcontact {
+  padding-top: 50px;
+  background-color: #F6F5F5;
+}
+
+/* Style the input container */
+.input-container {
+  display: flex;
+  width: 80%;
+
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Style the form icons */
+.icon {
+  padding: 10px;
+  background: #1687A7;
+  color: #F6F5F5;
+  min-width: 50px;
+  border-radius: 5px 0 0 5px;
+}
+
+/* Style the input fields */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid;
+}
+
+.input-field:focus {
+  border: 2px solid #1687A7;
+}
+
+.msg {
+  border-radius: 5px;
+}
+
+/* Style for the submit button */
+.btn {
+  background-color: #1687A7;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 80%;
+  opacity: 0.9;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+/* Style icons */
+.icon-container {
+  height: 10px;
+  padding-bottom: 50px;
+  padding-top: 10px;
+}
+
+.fab, .fas {
+  padding: 20px 20px 0;
+  text-align: center;
+  font-size: 2em;
+  color: #1A2639;
+}
+
+/* * * * * * * * * * MEDIA QUERIES * * * * * * * * * */
+
+/* Custom */
+@media only screen and (min-width : 380px) {
+  .photome {
+    width: 60%;
+  }
+
+  .name, .profession {
+    width: 80%;
+  }
+
+  .story {
+    width: 85%;
+  }
+
+  .mise, .workrow, .input-container, .btn {
+    width: 70%;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+  .photome {
+    width: 50%;
+  }
+
+  .name, .profession {
+    width: 70%;
+  }
+
+  .story {
+    width: 85%;
+  }
+
+  .mise, .workrow, .input-container, .btn {
+    width: 65%;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .photome {
+    width: 40%;
+  }
+
+  .name, .profession {
+    width: 60%;
+  }
+
+  .story {
+    width: 75%;
+  }
+
+  .mise, .workrow, .input-container, .btn {
+    width: 60%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .photome {
+    width: 35%;
+  }
+
+  .name, .profession {
+    width: 50%;
+  }
+
+  .story {
+    width: 65%;
+  }
+
+  .mise, .workrow, .input-container, .btn {
+    width: 55%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .photome {
+    width: 25%;
+  }
+
+  .name, .profession {
+    width: 40%;
+  }
+
+  .story {
+    width: 60%;
+  }
+
+  .mise, .workrow, .input-container, .btn {
+    width: 50%;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .photome {
+    width: 20%;
+  }
+
+  .name, .profession {
+    width: 30%;
+  }
+
+  .story {
+    width: 50%;
+  }
+
+  .mise, .workrow, .input-container, .btn {
+    width: 45%;
+  }
+}

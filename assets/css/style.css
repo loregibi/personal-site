@@ -129,6 +129,25 @@ p.quote {
   width: 100%;
 }
 
+.skills {
+  width: 80%;
+  background-color: #D3E0EA;
+  border-radius: 10px;
+}
+
+.html, .css, .mysql {
+  border-radius: 10px;
+  background-color: #276678;
+}
+
+.html, .css {
+  width: 90%;
+}
+
+.mysql {
+  width: 30%;
+}
+
 /* * * * * * * * * * STYLE SECTION WORK * * * * * * * * * */
 
 #fixwork {
@@ -240,7 +259,7 @@ p.quote {
     width: 85%;
   }
 
-  .mise, .workrow, .input-container, .btn {
+  .mise, .workrow, .input-container, .btn, .skills {
     width: 70%;
   }
 }
@@ -259,7 +278,7 @@ p.quote {
     width: 85%;
   }
 
-  .mise, .workrow, .input-container, .btn {
+  .mise, .workrow, .input-container, .btn, .skills {
     width: 65%;
   }
 }
@@ -278,7 +297,7 @@ p.quote {
     width: 75%;
   }
 
-  .mise, .workrow, .input-container, .btn {
+  .mise, .workrow, .input-container, .btn, .skills {
     width: 60%;
   }
 }
@@ -297,7 +316,7 @@ p.quote {
     width: 65%;
   }
 
-  .mise, .workrow, .input-container, .btn {
+  .mise, .workrow, .input-container, .btn, .skills {
     width: 55%;
   }
 }
@@ -316,7 +335,7 @@ p.quote {
     width: 60%;
   }
 
-  .mise, .workrow, .input-container, .btn {
+  .mise, .workrow, .input-container, .btn, .skills {
     width: 50%;
   }
 }
@@ -335,7 +354,7 @@ p.quote {
     width: 50%;
   }
 
-  .mise, .workrow, .input-container, .btn {
+  .mise, .workrow, .input-container, .btn, .skills {
     width: 45%;
   }
 }

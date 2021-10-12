@@ -129,25 +129,6 @@ p.quote {
   width: 100%;
 }
 
-.skills {
-  width: 80%;
-  background-color: #D3E0EA;
-  border-radius: 10px;
-}
-
-.html, .css, .mysql {
-  border-radius: 10px;
-  background-color: #276678;
-}
-
-.html, .css {
-  width: 90%;
-}
-
-.mysql {
-  width: 30%;
-}
-
 /* * * * * * * * * * STYLE SECTION WORK * * * * * * * * * */
 
 #fixwork {
@@ -169,6 +150,25 @@ p.quote {
 
 .workrow ul {
   list-style: none;
+}
+
+.skills {
+  width: 80%;
+  background-color: #D3E0EA;
+  border-radius: 10px;
+}
+
+.html, .css, .mysql {
+  border-radius: 10px 0 0 10px;
+  background-color: #276678;
+}
+
+.html, .css {
+  width: 90%;
+}
+
+.mysql {
+  width: 30%;
 }
 
 /* * * * * * * * * * STYLE SECTION CONTACT * * * * * * * * * */

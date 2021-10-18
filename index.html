@@ -21,7 +21,7 @@
       }
       function resetFunction()
       {
-        document.getElementById("form").reset();
+        window.setTimeout(function(){location.reload()},3000)
       }
     </script>
 
@@ -180,7 +180,7 @@
       </div>
 
       <p>Stay tuned. I'll soon post a preview.</p>
-      
+
       <h2>Skills</h2><br>
 
       <p>HTML</p>
@@ -212,7 +212,7 @@
           </div>
         </div>
       </div>
-      
+
       <p>JAVA</p>
 
       <div class="section">
@@ -236,42 +236,39 @@
         <p class="story">I'm always interested in hearing about new <i><b>projects</b></i> and <i><b>opportunities</b></i>.</p>
       </div>
 
-      <form id="form">
-        <div class="section" style="padding-top: 20px;">
-          <div class="input-container">
-            <i class="fa fa-user icon"></i>
-            <input type="text" class="input-field" id="name" placeholder="Name">
-          </div>
+      <div class="section" style="padding-top: 20px;">
+        <div class="input-container">
+          <i class="fa fa-user icon"></i>
+          <input type="text" class="input-field" id="name" placeholder="Name">
         </div>
+      </div>
 
-        <div class="section">
-          <div class="input-container">
-            <i class="fa fa-envelope icon"></i>
-            <input type="text" class="input-field" id="email" placeholder="Email Address">
-          </div>
+      <div class="section">
+        <div class="input-container">
+          <i class="fa fa-envelope icon"></i>
+          <input type="text" class="input-field" id="email" placeholder="Email Address">
         </div>
+      </div>
 
-        <div class="section">
-          <div class="input-container">
-            <i class="far fa-file-alt icon"></i>
-            <input type="text" class="input-field" id="subject" placeholder="Subject">
-          </div>
+      <div class="section">
+        <div class="input-container">
+          <i class="far fa-file-alt icon"></i>
+          <input type="text" class="input-field" id="subject" placeholder="Subject">
         </div>
+      </div>
 
-        <div class="section">
-          <div class="input-container">
-            <textarea class="input-field msg" id="message" placeholder="Your message"
-            style="height: 100px; resize: none"></textarea>
-          </div>
+      <div class="section">
+        <div class="input-container">
+          <textarea class="input-field msg" id="message" placeholder="Your message"
+          style="height: 100px; resize: none"></textarea>
         </div>
+      </div>
 
-        <div class="section">
-          <button onclick="sendMail(), successFunction(), resetFunction()" class="btn">Send Message</button>
-        </div>
+      <div class="section">
+        <button onclick="sendMail(), successFunction(), resetFunction()" class="btn">Send Message</button>
+      </div>
 
-        <br><p id="success-msg" class="fadeout"></p>
-
-      </form>
+      <br><p id="success-msg" class="fadeout"></p>
 
       <div class="section icon-container">
         <a href="#">

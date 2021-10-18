@@ -6,7 +6,7 @@ function sendMail(params) {
     message: document.getElementById("message").value,
   };
 
-  emailjs.send('service_poxjqqs','template_1dqbkhq',tempParams)
+  emailjs.send('gmail','template',tempParams)
   .then(function(res){
     console.log("success", res.status);
   })

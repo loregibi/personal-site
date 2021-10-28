@@ -2,7 +2,7 @@ function sendMail(params) {
   var tempParams = {
     name: document.getElementById("name").value,
     email: document.getElementById("email").value,
-    subject: document.getElementById("object").value,
+    object: document.getElementById("object").value,
     message: document.getElementById("message").value,
   };
 
